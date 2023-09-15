@@ -41,7 +41,7 @@ class _MyHomePageState extends State<MyHomePage> {
           title: const Text('QR code generator'),
         ),
         
-        body: Container(
+        body: SingleChildScrollView (
           padding: const EdgeInsets.all(70.0),
           child: Column(
             children: [
