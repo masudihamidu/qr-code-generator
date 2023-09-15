@@ -42,7 +42,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
         
         body: SingleChildScrollView (
-          padding: const EdgeInsets.all(70.0),
+          padding: const EdgeInsets.all(30.0),
           child: Column(
             children: [
 
@@ -77,6 +77,13 @@ class _MyHomePageState extends State<MyHomePage> {
                 },
                 child: const Text('Generate QR Code'),
               ),
+
+              const Center(
+                child: Padding(
+                  padding: EdgeInsets.all(8.0),
+                ),
+              ),
+
               if (data != null && data.isNotEmpty) // Only show the QR code if data is not empty
                 Center(
                   child: QrImageView(
