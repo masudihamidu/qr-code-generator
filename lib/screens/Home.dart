@@ -27,7 +27,6 @@ class _MyHomePageState extends State<Home> {
           padding: const EdgeInsets.all(30.0),
           child: Column(
             children: [
-
               TextField(
                 decoration: const InputDecoration(
                   contentPadding: EdgeInsets.all(10),

@@ -1,4 +1,4 @@
-#Wed Sep 27 13:07:36 EAT 2023
+#Thu Sep 28 01:34:59 EAT 2023
 base.0=/Users/user/AndroidStudioProjects/qr_code_generator/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
